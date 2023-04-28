@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1500px;
+    margin: auto;
+   height: 700px;
+}
+
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+img{
+    width: 300px;
+    display: block;
+    padding-bottom: 2rem;
+   
+}
+
+.member{
+    padding-bottom: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+h1, p {
+    text-align: center;
+}
