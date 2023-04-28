@@ -6,38 +6,38 @@ const myArrName =[
     {
         eleName: 'Wayne Barnett',
         eleWork:'Founder & CEO',
-        eleImg: 'wayne-barnett- founder-eco.jpg',
+        eleImg: `<img src="img/wayne-barnett-founder-ceo.jpg" alt="">`,
     },
 
     {
         eleName: 'Angela Caroll',
         eleWork:'Chief Editor',
-        eleImg: 'angela-caroll-chief-editor.jpg',
+        eleImg: `<img src="img/angela-caroll-chief-editor.jpg" alt="">`,
     },
 
     {
         eleName: 'walter Gordon',
         eleWork:'Office Manager',
-        eleImg: 'walter-gordon-office-manager.jpg',
+        eleImg:`<img src="img/walter-gordon-office-manager.jpg" alt="">`,
 
     },
 
     {
         eleName: 'Angela Lopez',
         eleWork:'Social Media Manager',
-        eleImg: 'angela-lopez-social-media-manager',
+        eleImg: `<img src="img/angela-lopez-social-media-manager.jpg" alt="">`,
     },
 
     {
         eleName: 'Scott Estrada',
         eleWork:'Developer',
-        eleImg: 'scott-estrada-developer.jpg',
+        eleImg: `<img src="img/scott-estrada-developer.jpg" alt="">`,
     },
 
     {
         eleName: 'Barbara Ramos',
         eleWork:'Grapich Designer',
-        eleImg: 'barbara-ramos-graphic-designer.jpg',
+        eleImg: ` <img src="img/barbara-ramos-graphic-designer.jpg" alt="">`,
     },
 ]
 
@@ -45,7 +45,7 @@ console.log(myArrName);
 
 for (let element of myArrName){
     console.log(element);
-    eleList.innerHTML += (`<li class="member">${element.eleName}, ${element.eleWork}, ${element.eleImg}</li>`);
+    eleList.innerHTML += (`<div class="member">${element.eleName}, ${element.eleWork}, ${element.eleImg}</div>`);
 }
 
 
