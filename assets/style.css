@@ -2,9 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+html{
+    background-color: black;
 }
 
 .container{
+    
     max-width: 1500px;
     margin: auto;
    height: 700px;
@@ -26,6 +32,8 @@ img{
 }
 
 .member{
+    background-color: blue;
+    border: 1px solid black;
     padding-bottom: 2rem;
     padding: 2rem;
     display: flex;
@@ -35,8 +43,12 @@ img{
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
+    color: red;
 }
 
 h1, p {
+    padding: 1rem;
     text-align: center;
+    color: white;
+    
 }
